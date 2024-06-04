@@ -1,0 +1,15 @@
+{
+  "name": "cryptogen",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Generate cryptographically secure opaque tokens using Web Workers",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Michiel van der Velde <michiel@wcdb.life> (https://michielvdvelde.nl)",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
